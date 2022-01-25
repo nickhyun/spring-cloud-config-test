@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: test
+  profiles:
+    default: sandbox
+  config:
+    import: "configserver:http://localhost:7777"
